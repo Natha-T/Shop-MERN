@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Raleway:wght@400;500;600&display=swap');
+html {
+	font-size: 10px;
+	overflow-x: hidden;
+
+}
+body {
+	background: var(	--lightGreen-3);
+	overflow-x: hidden;
+}
+section {
+	padding: 100px 0;
+}
+@media only screen and (max-width: 767px) {
+	section {
+		padding: 50px 0;
+	}
+}
+.container {
+
+	max-width: 1200px;
+	width: 90%;
+	margin: 0 auto;
+}
+:root {
+	--lightGreen-3: #FFFDF2;
+	--green-1: #26643b;
+	--green-2: #a2de96;
+	--lightGreen-1: #d6e5d8;
+	--lightGreen-2: #f5fcf4;
+	--black-1: #3b413a;
+	--black-2: #3f3c3c;
+	--black-3: #5b6359;
+	--white-1: #e8e8e8;
+}
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+h1,
+h2,
+h3,
+h4 {
+	font-family: Poppins;
+}
+p {
+	font-family: Raleway;
+	font-weight: 400;
+	line-height: 1.4em;
+	font-size: 1.8rem;
+}
+a {
+	display: inline-block;
+	text-decoration: none;
+}
+.btn {
+	color: var(--green-1);
+	font-family: Poppins;
+	font-weight: 500;
+	border-radius: 8px;
+	font-size: 1.4rem;
+	padding: 1.2rem 2rem;
+}
+.primary-btn {
+	color: var(--white-1);
+	background: var(--green-1);
+}
+@media only screen and (min-width: 700px) {
+	.btn {
+		padding: 1.3rem 2rem;
+		font-size: 2rem;
+	}
+}
+.btnn {
+	background:  #26643b;
+	background-image: -webkit-linear-gradient(top,  #26643b, #a2de96);
+	background-image: -moz-linear-gradient(top,  #26643b, #a2de96);
+	background-image: -ms-linear-gradient(top,  #26643b, #a2de96);
+	background-image: -o-linear-gradient(top,  #26643b, #a2de96);
+	background-image: linear-gradient(to bottom,  #26643b, #a2de96);
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	font-family: Georgia;
+	color: #000000;
+	font-size: 39px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+  }
+  
+  .btnn:hover {
+	background: #3cb0fd;
+	background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+	text-decoration: none;
+  }
+
+  .conta{
+
+	width: 100%;
+	height: 100%;
+
+	
+
+
+  }
+
+  .bn60 {
+	background-color: #190c8d;
+	color: #ffffff;
+	font-size: 1.3em;
+	font-weight: 600;
+	position: relative;
+	outline: none;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	height: 55px;
+	width: 160px;
+  }
